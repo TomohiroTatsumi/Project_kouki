@@ -1,4 +1,4 @@
- h1{color: #5075f0}
+ h1{color: rgb(10, 18, 122)}
  th,td{border:dashed thick black;}
  th.important{color:red;}
  p.sample1{border:inset 10px #fbff00;}
