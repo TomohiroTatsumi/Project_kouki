@@ -1,0 +1,1 @@
+ function Question(){if(document.getElementById('answer').value=='家系'){alert('Excellent!');}else{alert('Too bad');}}

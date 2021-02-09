@@ -1,0 +1,1 @@
+ function imgchange3(){document.getElementById('img').src='./image/iekei.jpg';}

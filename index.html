@@ -6,6 +6,10 @@
    <link rel="stylesheet" href="mystyle.css">
    <script src="ex-change1.js"></script>
    <script src="ex1.js"></script>
+   <script src="ex-change2.js"></script>
+   <script src="ex2.js"></script>
+   <script src="ex3.js"></script>
+   <script src="ex-change3.js"></script>
  </head>
  <body>
 
@@ -20,24 +24,28 @@
  <h2>兵庫県　宝塚市</h2>
  <div id="image1">
  <input type="button" value="画像の変更" onclick="imgchange1();">
- <img src='./image/kageki.jpg' id="logo" alt="kageki"></div>
+ <img src='./image/kageki.jpg' id="logo" alt="kageki">
+ </div>
  <li><a href="https://kageki.hankyu.co.jp/revue/2021/romeoandjuliette/index.html">宝塚歌劇</a></li>
  <li><a href="https://www.hankyu.co.jp/">阪急電鉄</a></li>
  <h2>が有名です！</h2>
 
  <h1>・・Hobby・・</h1>
  <h2>モータースポーツ</h2>
- <img src='./image/86brz.jpg'. alt="86brz">
+ <div id="image2">
+ <input type="button" value="画像の変更" onclick="imgchange2();">
+ <img src='./image/86brz.jpg' id="mark" alt="86brz">
+ </div>
  <a href="https://toyotagazooracing.com/jp/86brz/">
  <section>
- <h2>86/BRZ Race 公式ホームページ</h2>
+ <th class="important"><h2>86/BRZ Race 公式ホームページ</h2></th>
  <p>TOYOTA 86「86Racing」とSUBARU BRZ「RA Racing」だけで争うワンメイクレース</p>
  <p>86/BRZ Raceは、国内Aライセンスがあれば誰でも参加できる。
     本格FRスポーツカーを操って楽しめる数少ないワンメイクレース。
     さらに車両はナンバー付きで、いつもは普段使いの愛車として、
     週末はレーシングカーとして自走でサーキットに乗り付けることもできる。
  </p>
- <h2>国内の有名プロドライバーも多数参戦！</h2>
+ <p class="important"><h2>国内の有名プロドライバーも多数参戦！</h2></p>
  <p>2020年も現役スーパーGTドライバーの谷口信輝選手、織戸学選手、青木孝行選手、平中克幸選手や
      トップカテゴリーで活躍した服部尚貴選手など、プロドライバーが多数参加していたのも86/BRZ Raceの魅力。
     "今、一番アツいワンメイクレース"として盛り上がりを見せている。
@@ -47,7 +55,21 @@
  </p>
  </section>
  </a>
- <h2></h2>
+ <h1>・・LIke・・</h1>
+ <h2>ラーメン</h2>
+ <p>私の好きなラーメンのジャンルは？</p>
+ <div id="txt1" >
+ <input type="button" value="ヒント" onclick="txtchange1();">
+ </div> 
+　　
+ 答:<input type="text3" id="answer">
+ <input type="button" value="解答" onclick="Question();">
+
+ <div id="image3">
+ <input type="button" value="画像の変更" onclick="imgchange3();">
+ <img src='./image/ra-men.jpg' id="img" alt="ra-men">
+ </div>
+
  </div>
 
  </body>

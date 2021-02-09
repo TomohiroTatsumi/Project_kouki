@@ -1,0 +1,1 @@
+ function imgchange2(){document.getElementById('mark').src='./image/86brz2.jpg';}

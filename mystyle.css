@@ -1,3 +1,4 @@
+ body {background-color:rgb(241, 215, 169)}
  h1{color: rgb(10, 18, 122)}
  th,td{border:dashed thick black;}
  th.important{color:red;}
